@@ -60,10 +60,6 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* add image */
-  /* background: url(../img/background.png) no-repeat; */
-  /* background-size: cover  ; */
-  /* background-position: center; */
 }
 .bg-img{
   width: 600px;
@@ -73,5 +69,5 @@ section {
   background: url(../img/background.png) no-repeat;
   background-size: cover  ;
   background-position: center;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
