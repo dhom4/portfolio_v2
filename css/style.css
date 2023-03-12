@@ -69,5 +69,29 @@ section {
   background: url(../img/background.png) no-repeat;
   background-size: cover  ;
   background-position: center;
-  /* background-attachment: fixed; */
 }
+
+.main h2 {
+  /* color: #fff; */
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.title {
+  /* make the span inline-block so I can give it margin.*/
+  display: inline-block;
+  margin-top: 25px;
+
+  color: #ff0055;
+  font-size: 3em;
+  font-weight: 600 ;
+}
+
+.main h3 {
+  font-size: 2em;
+  font-weight: 500;
+  letter-spacing: 1px; 
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
