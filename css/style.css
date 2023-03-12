@@ -48,6 +48,30 @@ header {
   color: #b2003b;
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+section {
+  /* we add some padding to fix what z-index did */
+  padding: 100px 200px;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  /* flex-box */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* add image */
+  /* background: url(../img/background.png) no-repeat; */
+  /* background-size: cover  ; */
+  /* background-position: center; */
+}
+.bg-img{
+  width: 600px;
+  height: 600px;
+  background: #ff0055;
+    /* add image */
+  background: url(../img/background.png) no-repeat;
+  background-size: cover  ;
+  background-position: center;
+  background-attachment: fixed;
+}
