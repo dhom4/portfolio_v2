@@ -2,16 +2,51 @@
 /* CSS
 /*******************************************/
 
-/* Box Model Hack */
 *{
+  font-family: Poppins;
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
 }
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+header {
+  background: #f0f0f0;
+  width: 100%;
 
+  /* make the header fixed when scrolling and in front of every other element */
+  position: fixed;
+  z-index: 999;
+  
+  /* inital flex-box */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;  
+}
 
+.logo {
+  text-decoration: none;
+  color: #ff0055;
+  /* color: #b2003b; */
+  /* color: #f5f9fc; */
+  font-weight: 700;
+  font-size: 1.8em;
+}
+
+.navigation a {
+  color: #ff0055;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 500;
+  padding-left: 30px;
+}
+.navigation a:hover {
+  color: #b2003b;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
