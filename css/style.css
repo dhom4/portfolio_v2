@@ -42,7 +42,7 @@ header {
   text-decoration: none;
   font-size: 1em;
   font-weight: 500;
-  padding-left: 30px;
+  padding-right: 30px;
 }
 .navigation a:hover {
   color: #b2003b;
@@ -95,3 +95,30 @@ section {
   margin-bottom: 30px;
 }
 
+.main-btn {
+  color: #fff;
+  background: #ff0055;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 400;
+  
+  /* convert to inile-block to add padding*/
+  display: inline-block;
+  padding: 1em 0.5em;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+
+  /* add transtion to the btn */
+  transition: 0.5s ease-in;
+}
+.main-btn:hover {
+  background-color: #ee0055;
+  /* made the btn scale a little bit */
+  transform: scale(1.1); 
+}
+
+.social-icons a{
+  color: #ff0055;
+  font-size: 1.5em;
+  padding-right: 25px;
+}
