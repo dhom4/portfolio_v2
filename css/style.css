@@ -14,7 +14,7 @@
 /* LAYOUT
 /*******************************************/
 header {
-  background: #f0f0f0;
+  background: #000;
   width: 100%;
 
   /* make the header fixed when scrolling and in front of every other element */
@@ -30,7 +30,7 @@ header {
 
 .logo {
   text-decoration: none;
-  color: #ff0055;
+  color: #ffcd20;
   /* color: #b2003b; */
   /* color: #f5f9fc; */
   font-weight: 700;
@@ -38,14 +38,14 @@ header {
 }
 
 .navigation a {
-  color: #ff0055;
+  color: #ffcd20;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 500;
   padding-right: 30px;
 }
 .navigation a:hover {
-  color: #b2003b;
+  color: #e0e0e0;
 }
 
 /* all sections */
@@ -75,7 +75,7 @@ section {
 .bg-img{
   width: 600px;
   height: 600px;
-  background: #ff0055;
+  background: #ffcd20;
     /* add image */
   background: url(../img/background.png) no-repeat;
   background-size: cover  ;
@@ -93,7 +93,7 @@ section {
   display: inline-block;
   margin-top: 25px;
 
-  color: #ff0055;
+  color: #ffcd20;
   font-size: 3em;
   font-weight: 600 ;
 }
@@ -108,7 +108,7 @@ section {
 
 .main-btn {
   color: #fff;
-  background: #ff0055;
+  background: #183fc6;
   text-decoration: none;
   font-size: 1.1em;
   font-weight: 400;
@@ -123,13 +123,13 @@ section {
   transition: 0.3s ease;
 }
 .main-btn:hover {
-  background-color: #ee0055;
+  background-color: #ffcd20;
   /* made the btn scale a little bit */
   transform: scale(1.1); 
 }
 
 .social-icons a{
-  color: #ff0055;
+  color: #ffcd20;
   font-size: 1.5em;
   padding-right: 25px;
 }
@@ -147,7 +147,7 @@ section {
 .title {
   display: flex;
   justify-content: center;
-  color: #ff0055;
+  color: #ffcd20;
   font-size: 2.2em;
   font-weight: 800;
   margin-bottom: 30px;
@@ -177,13 +177,13 @@ section {
 }
 
 .icon {
-  color: #ff0055;
+  color: #ffcd20;
   font-size: 5em;
   text-align: center;
 }
 
 .info h4 {
-  color: #ff0055;
+  color: #ffcd20;
   font-size: 1.2em;
   font-weight: 700;
   margin: 10px 0;
@@ -208,7 +208,7 @@ section {
   width: 20em;
   min-height: 14em;
   background-color: #fff;
-  border: 3px solid #ff0055;
+  border: 3px solid #ffcd20;
   border-radius: 5px;
   overflow: hidden;
   margin: 20px;
@@ -248,11 +248,18 @@ section {
 .more-details {
   text-decoration: none;
   color: #fff;
-  background: #ff0055;
-  padding: .1em;
+  background: #ffcd20;
+  padding: .2em;
 }
 .more-details:hover {
-  color: #ee0055;
-  background: #fff;
+  /* color: #183fc6; */
+  background: #183fc6;
 }
+
+/* 
+==============
+    section three contract 
+==============
+*/
+
 
